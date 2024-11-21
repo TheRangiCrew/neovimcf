@@ -7,7 +7,7 @@ return {
 				icons_enabled = true,
 			},
 			sections = {
-				lualine_b = { "branch", "diff" },
+				lualine_b = { "branch", "diff", "diagnostics" },
 			},
 		})
 	end,

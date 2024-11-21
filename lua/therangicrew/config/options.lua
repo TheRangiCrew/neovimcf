@@ -9,7 +9,7 @@ vim.opt.relativenumber = true
 vim.opt.scrolloff = 10
 
 -- Enable mouse mode
-vim.opt.mouse = 'a'
+vim.opt.mouse = "a"
 
 -- Tab and space stuff
 vim.opt.tabstop = 4
@@ -30,7 +30,7 @@ vim.opt.termguicolors = true
 
 -- Sync keyboard between OS and Neovim
 vim.schedule(function()
-    vim.opt.clipboard = 'unnamedplus'
+	vim.opt.clipboard = "unnamedplus"
 end)
 
 -- Allow splitting
@@ -39,10 +39,10 @@ vim.opt.splitbelow = true
 
 -- Sets how neovim will display certain whitespace characters in the editor.
 vim.opt.list = true
-vim.opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = "  ", trail = "·", nbsp = "␣" }
 
 -- Preview substitutions live, as you type!
-vim.opt.inccommand = 'split'
+vim.opt.inccommand = "split"
 
 -- Show which line your cursor is on
 vim.opt.cursorline = true
